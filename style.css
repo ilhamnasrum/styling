@@ -1,0 +1,15 @@
+nav .nav-link {
+  margin-right: 50px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.card-pembelian {
+  padding-top: 100px;
+}
+footer {
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: -100px;
+  position: ;
+}
