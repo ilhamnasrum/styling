@@ -4,6 +4,10 @@ nav .nav-link {
   text-transform: uppercase;
 }
 
+body {
+  font-family: "Lobster Two", cursive;
+}
+
 .card-pembelian {
   padding-top: 100px;
 }
@@ -11,5 +15,67 @@ footer {
   height: 60px;
   line-height: 60px;
   margin-bottom: -100px;
-  position: ;
+}
+
+/* ikon */
+.ikon {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 3px rgb(145, 144, 144);
+  border-radius: 20px;
+  font-family: "Lobster Two", cursive;
+  font-weight: bold;
+}
+/* kategori */
+
+.kategori .container {
+  background-color: white;
+  min-height: 100px;
+}
+.kategori a {
+  border: 1px solid rgb(165, 163, 163);
+}
+
+.kategori a {
+  text-decoration: none;
+}
+.kategori p {
+  color: rgb(54, 53, 53);
+  text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+  font-size: 0.8em;
+}
+
+.kategori h5 {
+  font-family: "lobster Two", cursive;
+  font-weight: bold;
+}
+.kategori img {
+  width: 300px;
+}
+
+/* hadiah */
+
+ .borderr .row {
+  border-radius: 25px;
+ display: flex;
+ align-content: center;
+ text-align: center;
+ justify-content: center;
+ background-color: rgb(107, 25, 25) !important;
+ color: wheat;
+ height: 120px;
+}
+.row h5 {
+  line-height: bold;
+  color: yellow;
+  font-style: normal;
+  font-size: larger;
+}
+@media (min-width: 992px) {
+  .kategori img {
+    width: 100px;
+  
 }
